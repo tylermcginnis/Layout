@@ -1,5 +1,5 @@
 body{
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.2em;
   color: #000;
   font-family: "ProximaNova", "Helvetica Neue", helvetica, arial, sans-serif;
@@ -27,6 +27,7 @@ body{
 
 #headerContainer #login {
   float: left;
+  clear: right;
 }
 
 #logo {
@@ -53,6 +54,24 @@ body{
   padding-left: 49px;
 }
 
+#input{
+  border: 1px solid #CCC;
+  border-top: 1px solid #999;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  display: block;
+  font-size: 18px;
+  height: 25px;
+  margin: 0 auto 15px;
+  padding: 5px;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  width: 300px;
+  color: rgb(153,153,153);
+}
+
 #login a {
   display: block;
   color: #fff;
@@ -66,15 +85,43 @@ body{
   background-color: #036;
 }
 
+#text {
+  margin-bottom: 6px;
+  text-align: center;
+}
 
+#button{
+  color: white;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  height: 15px;
+  padding: 15px 10px;
+  cursor: pointer;
+  background-color: #393;
+  width: 160px;
+  margin: 0px auto;
+  -webkit-appearance: none;
+}
 
 #bodyContainer{
   overflow: hidden;
   position: relative;
   background: url("https://basecamp.com/assets/images/home-sign-up/signup-drawing2.png") no-repeat;
-  margin-top: -40px;
   border-bottom: 1px solid #d4cdc1;
-  clear: left;
+  clear: both;
+  background-position: 0px 154px;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 46px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.1em;
+  display: block;
 }
 
 #blondie{
@@ -88,3 +135,104 @@ body{
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
 }
+
+#freeTrialContainer{
+  float: left;
+  border: 0;
+  padding: 65px 0 0;
+  margin-left: 10px;
+  background: transparent;
+  width: 360px;
+  position: relative;
+}
+
+#freeTrailText{
+  font-size: 28px;
+  color: #c00;
+  font-weight: bold;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+#termsOfService{
+  text-align: center;
+  margin-top: 15px;
+}
+
+#minute{
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.3em;
+  margin: 0 0 15px 0;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+#bottomContainer{
+  border-bottom: 1px solid #d4cdc1;
+}
+
+#ninetySeven{
+  font-size: 46px;
+  letter-spacing: -1px;
+  line-height: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#why{
+  text-align: center;
+  color: #076ED6 !important;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#why:visted{
+  color: #076ED6 !important;
+}
+
+#bubble {
+  position: absolute;
+  width: 186px;
+  height: 120px;
+  left: 44px;
+  top: 200px;
+  text-align: center;
+  line-height: 20px;
+}
+
+#joy{
+  position: absolute;
+  left: -9999px;
+}
+
+#footerLinks{
+  float: left;
+}
+
+#boldText{
+  font-weight: bold;
+  border-right: 1px solid #d4cdc1;
+}
+
+#help, #contact{
+  border-right: 1px solid #d4cdc1;
+}
+
+#footerLinks li{
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 11px;
+}
+
+#copyright{
+  float: left;
+  margin-left: 20px;
+  margin-top: 14px;
+}
+
