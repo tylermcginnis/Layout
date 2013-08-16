@@ -1,3 +1,90 @@
 body{
-  /* rules go here */
+  font-size: 14px;
+  line-height: 1.2em;
+  color: #000;
+  font-family: "ProximaNova", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+#innerContainer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#headerContainer {
+  padding: 20px 0 0 30px;
+  border-bottom: 1px solid #d4cdc1;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+#headerContainer #logo {
+  float: left;
+}
+
+#headerContainer #linksContainer {
+  float: left;
+}
+
+#headerContainer #login {
+  float: left;
+}
+
+#logo {
+  height: 55px;
+  width: 194px;
+  background: url("https://basecamp.com/assets/images/logo.png") no-repeat center top;
+  background-size: 194px 55px;
+  margin-right: 90px;
+}
+
+#linksContainer ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+
+#linksContainer ul li a {
+  color: #06c;
+  font-weight: bold;
+}
+
+#login{
+  padding-top: 16px;
+  padding-left: 49px;
+}
+
+#login a {
+  display: block;
+  color: #fff;
+  background-color: #06C;
+  padding: 8px 14px 9px 14px;
+  margin: 0 0 0 10px;
+}
+
+#login a:hover {
+  text-decoration: none;
+  background-color: #036;
+}
+
+
+
+#bodyContainer{
+  overflow: hidden;
+  position: relative;
+  background: url("https://basecamp.com/assets/images/home-sign-up/signup-drawing2.png") no-repeat;
+  margin-top: -40px;
+  border-bottom: 1px solid #d4cdc1;
+  clear: left;
+}
+
+#blondie{
+  float: left;
+  margin: 70px 0 0 175px;
+  width: 393px;
+  height: 490px;
+  background: url("https://basecamp.com/assets/images/home-sign-up/joy.png") 25px 25px no-repeat;
+  background-size: 375px 465px;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
 }
