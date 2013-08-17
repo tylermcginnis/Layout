@@ -1,3 +1,76 @@
+html{
+  margin:0;
+  padding: 0;
+}
+
 body{
-  /* rules go here */
+  margin:0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+#sidebar {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  left: 0;
+  top: 20px;
+  border-right: 1px solid #e3e3e3;
+}
+
+#logo img{
+  width: 85%;
+  height: 85%;
+}
+
+#insideBar{
+  margin-left: 10%;
+}
+
+#secondBody{
+  margin-left: 25%;
+}
+
+#blogContainer {
+  border-top: 1px solid #e2e2e2;
+}
+
+#blogDate h3 {
+  display: block;
+  font-family: "freight-sans-pro",sans-serif;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 23px;
+  margin-left: 26px;
+}
+
+#blogTitle{
+  width: 262px;
+}
+
+#blogTitle h3 {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #CCC;
+  font-family: "freight-sans-pro",sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 30px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#blogPost p {
+  font-size: 15px;
+  line-height: 27px;
+  color: #373737;
+  font-family: 'proxima-nova',sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
 }
